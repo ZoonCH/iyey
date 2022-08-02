@@ -10,7 +10,7 @@ let handler = async (m, { conn }) => {
   let d = await fetch(c).then(a => a.buffer())
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
   title: `${await conn.getName(conn.user.jid)}`,
-  description: ` *• 𝘀𝗲𝘄𝗮 𝗯𝗼𝘁 𝗶𝗻𝗶 & 𝘂𝗻𝗱𝗮𝗻𝗴 𝗸𝗲 𝗴𝗿𝘂𝗽 & 𝘂𝗽𝗴𝗿𝗮𝗱𝗲 𝗷𝗮𝗱𝗶 𝗺𝗲𝗺𝗯𝗲𝗿 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 •*
+  description: ` *• 𝘀𝗲𝘄𝗮 𝗯𝗼𝘁 𝗶𝗻𝗶 & 𝘂𝗽𝗴𝗿𝗮𝗱𝗲 𝗷𝗮𝗱𝗶 𝗺𝗲𝗺𝗯𝗲𝗿 𝗽𝗿𝗲𝗺𝗶𝘂𝗺 •*
 
 𝚄𝚗𝚝𝚞𝚔 𝚌𝚊𝚛𝚊 𝚒𝚗𝚟𝚒𝚝𝚎 𝚋𝚘𝚝 𝚒𝚗𝚒 𝚌𝚊𝚛𝚊 𝚗𝚢𝚊 𝚖𝚞𝚍𝚊𝚑
 
@@ -18,6 +18,11 @@ let handler = async (m, { conn }) => {
 https://youtube.com/channel/UCjzlh0Uhz8KJYZnZ0BVN35w
 Lalu chat nomor:
 http://wa.me/6283822910734?text=SAYA+SUDAH+SUBSCRIBE
+
+*Upgrade ke Premium*
+1 Bulan    = Rp 5,000
+2 Bulan    = Rp 10,000
+Permanent = Rp 20,000
 
 ☞𝑜𝑤𝑛𝑒𝑟 ❀wa.me/${owner[0]}✵
 
