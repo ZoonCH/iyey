@@ -131,7 +131,7 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) await loadDatabase()
   console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) conn.sendMessage(`6285794829914@s.whatsapp.net`, {text: 'Online' })
+  if (update.receivedPendingNotifications) conn.sendMessage(`6283822910734@s.whatsapp.net`, {text: 'Online' })
 }
 
 
