@@ -944,10 +944,10 @@ conn.ws.on('CB:call', async (json) => {
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*GEMPY*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*GEMPY*_!',
+        rowner: 'Perintah ini hanya dapat digunakan oleh _*Owner*_',
+        owner: 'Perintah ini hanya dapat digunakan oleh _*Owner*_!',
         mods: 'Perintah ini hanya dapat digunakan oleh _*Moderator*_ !',
-        premium: '*Undang Bot+Premium*\n1 Bulan *Rp10.000*\n2bulan *Rp15.000*\n\nKetik .sewa kalau minat..', 
+        premium: '*Perintah ini hanya untuk Premium*\nketik #sewa untuk melihat harga upgrade ke Premium..', 
         banned: 'Perintah ini hanya untuk pengguna yang terbanned..',
         group: 'Perintah ini hanya dapat digunakan di grup!',
         private: 'Perintah ini hanya dapat digunakan di Chat Pribadi!',
