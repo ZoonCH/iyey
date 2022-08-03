@@ -40,7 +40,7 @@ let handler = async (m, { conn, args, usedPrefix, DevMode }) => {
 }
     
 handler.help = ['ganda']
-handler.tags = ['owner']
+handler.tags = ['main']
 handler.command = /^(ganda)$/i
 
 handler.owner = true
